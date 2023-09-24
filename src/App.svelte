@@ -9,13 +9,13 @@
 
 <Router {url}>
   <nav>
-    <Link to="/">Home</Link>
-    <Link to="/blog">Blog</Link>
-    <Link to="/about">About</Link>
+    <Link to="app/">Home</Link>
+    <Link to="app/blog">Blog</Link>
+    <Link to="app/about">About</Link>
   </nav>
-  <Route path="/" component={Home} />
-  <Route path="/blog" component={Blog} />
-  <Route path="/about" component={About} />
+  <Route path="app/" component={Home} />
+  <Route path="/app/blog" component={Blog} />
+  <Route path="/app/about" component={About} />
 </Router>
 
 <style>
